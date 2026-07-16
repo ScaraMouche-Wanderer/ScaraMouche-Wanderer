@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hi, I'm Pratham 👋
 
-<!--
-**ScaraMouche-Wanderer/ScaraMouche-Wanderer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+🎓 B.Tech in Electronics & Communication Engineering
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💻 Interested in:
+- Embedded Systems
+- IoT
+- Linux
+- Computer Vision
+- C++
+
+🌱 Currently learning:
+- GATE EC
+- Embedded Systems
+- STM32
+
+## Projects
+
+- 🔥 FaceGATE
+- 📡 ESP32 IoT Firewall
+- 🎥 Video Anonymizer
+
+## GitHub Stats
+
+<!-- Stats will go here -->
