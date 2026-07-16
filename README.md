@@ -1,31 +1,21 @@
-# Hi, I'm Pratham 👋
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3500&pause=1200&center=true&vCenter=true&width=700&lines=Prathmesh;Embedded+Systems+%7C+Linux;Computer+Vision+Developer;Building+Practical+Projects" />
+</p>
 
-## About Me
+Building embedded systems, Linux tools and computer vision projects one repository at a time.
 
-🎓 B.Tech in Electronics & Communication Engineering
+🔥 FaceGATE
+Linux-native facial recognition attendance system.
 
-💻 Interested in:
-- Embedded Systems
-- IoT
-- Linux
-- Computer Vision
-- C++
+📡 ESP32 IoT Firewall
+Wireless packet analysis and IoT threat detection.
 
-🌱 Currently learning:
-- GATE EC
-- Embedded Systems
-- STM32
-
-## Projects
-
-- 🔥 FaceGATE
-- 📡 ESP32 IoT Firewall
-- 🎥 Video Anonymizer
+<p align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,python,java,linux,bash,git,github,vscode,opencv,arduino" />
+</p>
 
 ## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ScaraMouche-Wanderer&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ScaraMouche-Wanderer&layout=compact&theme=tokyonight)
 
 ## 📈 Contribution Graph
 
@@ -36,3 +26,8 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=ScaraMouche-Wanderer&color=blueviolet)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=ScaraMouche-Wanderer&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+Currently working on:
+• FaceGATE
+• Embedded Systems
+• Linux
