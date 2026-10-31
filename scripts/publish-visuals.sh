@@ -12,6 +12,7 @@ expected = [
     'stats-dark.svg', 'stats-light.svg', 'languages-dark.svg', 'languages-light.svg',
     'streak-dark.svg', 'streak-light.svg',
     'repo-iot.svg', 'repo-facegate.svg', 'repo-codewriter.svg',
+    'repo-prag.svg', 'repo-portfolio.svg',
 ]
 for name in expected:
     path = Path('generated') / name
