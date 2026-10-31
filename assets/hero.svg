@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc"><title id="title">Prathmesh Narwaria — Hardware roots. Software reach.</title><desc id="desc">Embedded systems, Linux tools, and computer vision. A custom circuit board illustration.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#29362f"/></pattern><linearGradient id="chip" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#273b31"/><stop offset="1" stop-color="#101c16"/></linearGradient></defs>
+<rect width="1280" height="440" rx="20" fill="#101a15"/><rect width="1280" height="440" rx="20" fill="url(#grid)"/>
+<path d="M44 58H1236M44 378H1236" stroke="#35443a"/>
+<circle cx="48" cy="33" r="4" fill="#d6fb86"/><text x="64" y="39" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" letter-spacing="2.6" fill="#e8eee4">PRATHMESH NARWARIA</text>
+<text x="1236" y="39" text-anchor="end" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#b9c6b6">SCARAMOUCHE / ENGINEERING LOG</text>
+<text x="44" y="155" font-family="DejaVu Sans,Arial,sans-serif" font-size="65" font-weight="bold" letter-spacing="-2" fill="#f0f2e8">HARDWARE ROOTS.</text>
+<text x="44" y="234" font-family="DejaVu Sans,Arial,sans-serif" font-size="65" font-weight="bold" letter-spacing="-2" fill="#d6fb86">SOFTWARE REACH.</text>
+<text x="47" y="287" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" fill="#c3cdbd">Embedded systems. Linux tools. Computer vision.</text>
+<g font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#d8e2d2"><rect x="46" y="315" width="100" height="30" rx="15" fill="#26372b"/><text x="96" y="335" text-anchor="middle">C / C++</text><rect x="156" y="315" width="100" height="30" rx="15" fill="#26372b"/><text x="206" y="335" text-anchor="middle">PYTHON</text><rect x="266" y="315" width="100" height="30" rx="15" fill="#26372b"/><text x="316" y="335" text-anchor="middle">LINUX</text></g>
+<g transform="translate(859 6)">
+<circle cx="210" cy="218" r="174" fill="none" stroke="#394b36" stroke-dasharray="3 9"/><circle cx="210" cy="218" r="151" fill="none" stroke="#293d2d"/>
+<path d="M0 180h54l36-36h40M24 286h38l43-43h33M295 165h44l30-30h23M293 272h42l29 29h35M181 85V63h44V45" fill="none" stroke="#a1ba70" stroke-width="2"/>
+<path d="M142 118v-18 M142 322v18 M104 118H86 M318 118h18" stroke="#a3ad94" stroke-width="8"/><path d="M166 118v-18 M166 322v18 M104 142H86 M318 142h18" stroke="#a3ad94" stroke-width="8"/><path d="M190 118v-18 M190 322v18 M104 166H86 M318 166h18" stroke="#a3ad94" stroke-width="8"/><path d="M214 118v-18 M214 322v18 M104 190H86 M318 190h18" stroke="#a3ad94" stroke-width="8"/><path d="M238 118v-18 M238 322v18 M104 214H86 M318 214h18" stroke="#a3ad94" stroke-width="8"/><path d="M262 118v-18 M262 322v18 M104 238H86 M318 238h18" stroke="#a3ad94" stroke-width="8"/><path d="M286 118v-18 M286 322v18 M104 262H86 M318 262h18" stroke="#a3ad94" stroke-width="8"/><path d="M310 118v-18 M310 322v18 M104 286H86 M318 286h18" stroke="#a3ad94" stroke-width="8"/><rect x="108" y="122" width="206" height="196" rx="17" fill="url(#chip)" stroke="#62794f" stroke-width="2"/>
+<path d="M127 142h25M127 142v25M294 298h-25M294 298v-25" fill="none" stroke="#d6fb86" stroke-width="2"/>
+<text x="211" y="231" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="66" font-weight="bold" fill="#d6fb86" letter-spacing="-5">PN</text>
+<text x="211" y="272" text-anchor="middle" font-family="DejaVu Sans Mono,monospace" font-size="11" letter-spacing="2" fill="#a7b599">DESIGN · BUILD · TEST</text>
+<g fill="#d6fb86"><circle cx="1" cy="180" r="4"/><circle cx="24" cy="286" r="4"/><circle cx="391" cy="135" r="4"/><circle cx="399" cy="301" r="4"/><circle cx="225" cy="45" r="4"/></g></g>
+<text x="45" y="413" font-family="DejaVu Sans Mono,monospace" font-size="12" letter-spacing="1.3" fill="#a7b59f">SELECTED WORK / FIRMWARE → SYSTEMS → INTERFACES</text>
+<text x="1235" y="413" text-anchor="end" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#d6fb86">BUILT TO BE EXPLORED ↗</text></svg>
+
