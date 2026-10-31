@@ -13,6 +13,8 @@
 
 <h2 align="center">🐍 Contribution snake</h2>
 
+<p align="center"><sub>The graph includes <a href="https://github.com/ScaraMouche-Wanderer/contribution-visualization-lab">synthetic 2026 activity</a> generated for this visualization, separate from project work.</sub></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake-dark.svg" />

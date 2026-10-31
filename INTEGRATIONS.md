@@ -17,6 +17,11 @@ Generated contribution graphics and cards live on the `output` branch. The
 workflow validates every SVG before publishing, and preserves the previous
 output if generation fails. Scheduled refresh commits do not alter `main`.
 
+The contribution graph includes explicitly generated fixtures from the
+[contribution visualization lab](https://github.com/ScaraMouche-Wanderer/contribution-visualization-lab).
+Those backdated author timestamps are synthetic and do not represent project
+work completed on the displayed days. Committer timestamps record generation.
+
 All data comes from the account's public GitHub activity. The language charts
 represent repository source composition, not proficiency or hours worked.
 Synthetic dashboard demonstrations are distinct from physical hardware results.
