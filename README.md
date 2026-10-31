@@ -11,15 +11,27 @@
   Building ESP32 firmware, native desktop apps, and local AI tools.
 </p>
 
-<h2 align="center">🐍 Contribution snake</h2>
+<h2 align="center">👻 Pac-Man contribution graph</h2>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/pacman-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/pacman.svg" />
+    <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/pacman-dark.svg" width="100%" alt="Pac-Man eats my contribution grid while colorful ghosts chase him — neon violet, magenta and electric cyan" />
+  </picture>
+</p>
 
+<details>
+<summary><b>🐍 Neon snake</b></summary>
+<br />
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake.svg" />
-    <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake-dark.svg" width="100%" alt="An animated snake eating my GitHub contribution graph" />
+    <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake-dark.svg" width="100%" alt="A bright yellow snake eats the neon contribution grid" />
   </picture>
 </p>
+</details>
 
 <h2 align="center">🛠️ Featured builds</h2>
 
