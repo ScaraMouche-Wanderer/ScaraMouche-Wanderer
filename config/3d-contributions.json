@@ -1,0 +1,14 @@
+{
+  "type": "rainbow",
+  "fileName": "contributions-3d.svg",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#c9d1d9",
+  "strongColor": "#22d3ee",
+  "weakColor": "#8b949e",
+  "radarColor": "#a78bfa",
+  "growingAnimation": true,
+  "saturation": "70%",
+  "contribLightness": ["12%", "32%", "42%", "52%", "62%"],
+  "duration": "8s",
+  "hueRatio": -7
+}

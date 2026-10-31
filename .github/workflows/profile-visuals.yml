@@ -1,0 +1,114 @@
+name: Refresh profile visuals
+
+on:
+  schedule:
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-visuals.yml'
+      - 'config/3d-contributions.json'
+      - 'scripts/publish-visuals.sh'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Contribution snake — light and dark
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            generated/snake.svg?color_snake=#7c3aed&color_dots=#ebedf0,#c4b5fd,#a78bfa,#8b5cf6,#6d28d9
+            generated/snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#312e81,#6d28d9,#a78bfa,#22d3ee
+
+      - name: Animated 3D contribution skyline
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: config/3d-contributions.json
+
+      - name: Stats — dark
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a78bfa&border_color=30363d&border_radius=14&custom_title=Prathmesh's%20GitHub%20Stats
+          path: generated/stats-dark.svg
+          fail_on_error: true
+
+      - name: Stats — light
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&bg_color=ffffff&title_color=7c3aed&text_color=24292f&icon_color=0891b2&border_color=d0d7de&border_radius=14&custom_title=Prathmesh's%20GitHub%20Stats
+          path: generated/stats-light.svg
+          fail_on_error: true
+
+      - name: Languages — dark
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&border_color=30363d&border_radius=14&card_width=420&exclude_repo=ScaraMouche-Wanderer
+          path: generated/languages-dark.svg
+          fail_on_error: true
+
+      - name: Languages — light
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=ffffff&title_color=7c3aed&text_color=24292f&border_color=d0d7de&border_radius=14&card_width=420&exclude_repo=ScaraMouche-Wanderer
+          path: generated/languages-light.svg
+          fail_on_error: true
+
+      - name: Contribution streak — dark
+        uses: DenverCoder1/github-readme-streak-stats@adbd07609bb771d3510a15ee2f3b31d5fbe5201d # v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&background=0D1117&border=30363D&ring=A78BFA&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B949E&border_radius=14
+          path: generated/streak-dark.svg
+
+      - name: Contribution streak — light
+        uses: DenverCoder1/github-readme-streak-stats@adbd07609bb771d3510a15ee2f3b31d5fbe5201d
+        with:
+          options: user=${{ github.repository_owner }}&theme=default&background=FFFFFF&border=D0D7DE&ring=7C3AED&fire=0891B2&currStreakLabel=7C3AED&border_radius=14
+          path: generated/streak-light.svg
+
+      - name: Repository card — ESP32 IoT Firewall
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=Iot-Firewall-main&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a78bfa&border_color=30363d&border_radius=14&description_lines_count=3
+          path: generated/repo-iot.svg
+          fail_on_error: true
+
+      - name: Repository card — FaceGATE
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=FaceGATE-Linux&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a78bfa&border_color=30363d&border_radius=14&description_lines_count=3
+          path: generated/repo-facegate.svg
+          fail_on_error: true
+
+      - name: Repository card — CodeWriter
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=CodeWriter&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a78bfa&border_color=30363d&border_radius=14&description_lines_count=3
+          path: generated/repo-codewriter.svg
+          fail_on_error: true
+
+      - name: Validate and publish generated visuals
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/publish-visuals.sh
