@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="68" viewBox="0 0 440 68" role="img" aria-labelledby="title desc">
+  <title id="title">Prathmesh's engineering stack</title>
+  <desc id="desc">C/C++, ESP32 and FreeRTOS; Python and native Linux tools; OpenCV and computer vision; Ollama and local AI.</desc>
+  <style>
+    .line { opacity: 0; animation: visible 18s linear infinite; }
+    .two { animation-delay: 4.5s; }
+    .three { animation-delay: 9s; }
+    .four { animation-delay: 13.5s; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    @keyframes visible { 0%,24%,100% { opacity: 0; } 1%,22% { opacity: 1; } }
+    @keyframes blink { to { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .line, .cursor { animation: none; }
+      .one { opacity: 1; clip-path: none; }
+      .one text { clip-path: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="typing-one"><rect width="0" height="68"><animate attributeName="width" values="0;430;430;0;0" keyTimes="0;.1;.2;.25;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typing-two"><rect width="0" height="68"><animate attributeName="width" values="0;430;430;0;0" keyTimes="0;.1;.2;.25;1" dur="18s" begin="4.5s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typing-three"><rect width="0" height="68"><animate attributeName="width" values="0;430;430;0;0" keyTimes="0;.1;.2;.25;1" dur="18s" begin="9s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typing-four"><rect width="0" height="68"><animate attributeName="width" values="0;430;430;0;0" keyTimes="0;.1;.2;.25;1" dur="18s" begin="13.5s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <rect x="1" y="1" width="438" height="66" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <g font-family="monospace" font-size="17" fill="#c9d1d9">
+    <text x="25" y="42" fill="#a78bfa">~/ $</text>
+    <g class="line one"><text x="100" y="42" clip-path="url(#typing-one)">C / C++ · ESP32 · FreeRTOS</text></g>
+    <g class="line two"><text x="100" y="42" clip-path="url(#typing-two)">Python · Linux apps</text></g>
+    <g class="line three"><text x="100" y="42" clip-path="url(#typing-three)">OpenCV · Vision</text></g>
+    <g class="line four"><text x="100" y="42" clip-path="url(#typing-four)">Ollama · Local AI</text></g>
+    <text x="410" y="42" fill="#22d3ee" class="cursor">▍</text>
+  </g>
+</svg>
