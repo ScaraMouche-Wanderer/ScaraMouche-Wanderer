@@ -18,7 +18,7 @@
             </defs>
         
       <g transform="translate(427, 105) scale(1, 1) translate(-427, -105)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
+        <path d="M0 0L 0 130Q 213.5 170 427 140T 854 165L 854 0 Z" fill="url(#linear)" opacity="0.4" >
           <animate
               attributeName="d"
               dur="20s"
@@ -30,7 +30,7 @@
               values="M0 0L 0 130Q 213.5 170 427 140T 854 165L 854 0 Z;M0 0L 0 155Q 213.5 170 427 150T 854 140L 854 0 Z;M0 0L 0 175Q 213.5 145 427 175T 854 140L 854 0 Z;M0 0L 0 130Q 213.5 170 427 140T 854 165L 854 0 Z">
           </animate>
         </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
+        <path d="M0 0L 0 145Q 213.5 190 427 160T 854 170L 854 0 Z" fill="url(#linear)" opacity="0.4" >
           <animate
             attributeName="d"
             dur="20s"

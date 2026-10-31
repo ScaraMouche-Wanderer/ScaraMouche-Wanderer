@@ -1,80 +1,93 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Prathmesh Narwaria — hardware roots, software reach. Embedded systems, Linux tools, and computer vision." />
+  <img src="./assets/header-animated.svg" width="100%" alt="Prathmesh Narwaria — ScaraMouche-Wanderer" />
+  <img src="./assets/typing.svg" width="100%" alt="C/C++ and ESP32 • Python and Linux • OpenCV • Local AI" />
 </p>
 
 <p align="center">
-  <a href="#selected-builds">Selected builds</a> &nbsp; / &nbsp;
-  <a href="./PROJECTS.md">Project index</a> &nbsp; / &nbsp;
-  <a href="#engineering-toolkit">Toolkit</a>
+  <b>Electronics & communication · Embedded systems · Linux · Computer vision</b><br />
+  Building ESP32 firmware, native desktop apps, and local AI tools.
 </p>
 
-I'm **Prathmesh Narwaria**, also known as **ScaraMouche**. I build across the boundary between hardware and software: ESP32 firmware, Linux desktop tools, and local computer vision.
+<h2 align="center">🐍 Contribution snake</h2>
 
-My projects connect low-level behavior to interfaces you can inspect, test, and demonstrate.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake.svg" />
+    <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/snake-dark.svg" width="100%" alt="An animated snake eating my GitHub contribution graph" />
+  </picture>
+</p>
 
-## Selected builds
+<h2 align="center">🛠️ Featured builds</h2>
 
-### 01 / ESP32 IoT Firewall
-<a href="https://github.com/ScaraMouche-Wanderer/Iot-Firewall-main">
-  <img src="./assets/iot-firewall.svg" width="100%" alt="ESP32 IoT Firewall — wireless observations, threat detection, and an operator dashboard. C++, ESP32, FreeRTOS, PlatformIO." />
-</a>
+<p align="center">
+  <a href="https://github.com/ScaraMouche-Wanderer/Iot-Firewall-main"><img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/repo-iot.svg" width="49%" alt="ESP32 IoT Firewall — C++ wireless intrusion detection, native tests and an offline dashboard demo" /></a>
+  <a href="https://github.com/ScaraMouche-Wanderer/FaceGATE-Linux"><img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/repo-facegate.svg" width="49%" alt="FaceGATE Linux — local face recognition, encrypted profiles and a native PySide6 interface" /></a>
+</p>
 
-An ESP32 wireless intrusion detection project with a packet-processing pipeline, rule-based detectors, alert lifecycles, and a Web Serial dashboard.
+<p align="center">
+  <a href="https://github.com/ScaraMouche-Wanderer/CodeWriter"><img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/repo-codewriter.svg" width="49%" alt="CodeWriter — GTK4 editor, code formatting, typing playback and Linux input automation" /></a>
+  <a href="https://github.com/ScaraMouche-Wanderer/prag-local-research"><img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/repo-prag.svg" width="49%" alt="PRAG — local research with Ollama, document retrieval and cited evidence" /></a>
+</p>
 
-**Engineering focus:** queue-based processing, bounded device tracking, native host tests, and a laptop demo with explicitly simulated telemetry.
+<p align="center">
+  <a href="https://github.com/ScaraMouche-Wanderer/engineering-portfolio"><img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/repo-portfolio.svg" width="49%" alt="Engineering Portfolio — Next.js, TypeScript, interactive systems visualizers, Prisma and SQLite" /></a>
+</p>
 
-[Source](https://github.com/ScaraMouche-Wanderer/Iot-Firewall-main) · [Project brief](https://github.com/ScaraMouche-Wanderer/Iot-Firewall-main/blob/main/PROJECT_BRIEF.md) · [Run the demo](https://github.com/ScaraMouche-Wanderer/Iot-Firewall-main/blob/main/docs/PRESENTATION.md) · [Tests & firmware CI](https://github.com/ScaraMouche-Wanderer/Iot-Firewall-main/actions)
-
-### 02 / FaceGATE Linux
-<a href="https://github.com/ScaraMouche-Wanderer/FaceGATE-Linux">
-  <img src="./assets/facegate.svg" width="100%" alt="FaceGATE Linux — local face recognition and application access control. Python, PySide6, OpenCV, InsightFace, ONNX Runtime." />
-</a>
-
-A Linux application locker that combines local face recognition, an encrypted profile vault, a password fallback, and a native desktop interface.
-
-**Engineering focus:** process monitoring, authentication state, encrypted storage, and a documented threat model for a user-level daemon.
-
-[Source](https://github.com/ScaraMouche-Wanderer/FaceGATE-Linux) · [Project brief](https://github.com/ScaraMouche-Wanderer/FaceGATE-Linux/blob/master/PROJECT_BRIEF.md) · [User guide](https://github.com/ScaraMouche-Wanderer/FaceGATE-Linux/blob/master/GUIDE.md) · [Security model](https://github.com/ScaraMouche-Wanderer/FaceGATE-Linux/blob/master/SECURITY.md)
-
-<details>
-<summary>See the desktop interface</summary>
-<br />
-<img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/FaceGATE-Linux/master/assets/screenshots/locked-apps.png" width="850" alt="FaceGATE application settings and protected application list" />
-</details>
-
-### 03 / CodeWriter
-<a href="https://github.com/ScaraMouche-Wanderer/CodeWriter">
-  <img src="./assets/codewriter.svg" width="100%" alt="CodeWriter — native Linux code editing, formatting, typing playback, and input automation. Python, GTK4, GtkSourceView, ydotool." />
-</a>
-
-A native Linux utility for staging and formatting code, previewing typing playback, and automating input in your own desktop workflows.
-
-**Engineering focus:** GTK event handling, controllable background typing, Wayland/X11 integration, and reusable text-processing tools.
-
-[Source](https://github.com/ScaraMouche-Wanderer/CodeWriter) · [Project brief](https://github.com/ScaraMouche-Wanderer/CodeWriter/blob/main/PROJECT_BRIEF.md) · [User guide](https://github.com/ScaraMouche-Wanderer/CodeWriter/blob/main/USER_GUIDE.md) · [Test suite](https://github.com/ScaraMouche-Wanderer/CodeWriter/tree/main/tests)
+<p align="center"><a href="./PROJECTS.md">All projects & implementation guides ↗</a></p>
 
 <details>
-<summary>See the editor and playback demo</summary>
+<summary><b>🎬 See FaceGATE and CodeWriter running</b></summary>
 <br />
-<img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/CodeWriter/main/docs/assets/codewriter_demo.gif" width="850" alt="CodeWriter editor and typing playback demonstration" />
+
+| FaceGATE Linux | CodeWriter |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/FaceGATE-Linux/master/assets/demo.gif" width="420" alt="FaceGATE desktop application demo" /> | <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/CodeWriter/main/docs/assets/codewriter_demo.gif" width="420" alt="CodeWriter editor and typing playback demo" /> |
+
+The [IoT Firewall laptop demo](https://github.com/ScaraMouche-Wanderer/Iot-Firewall-main/blob/main/docs/PRESENTATION.md) runs without an ESP32 and labels its simulated telemetry.
+
 </details>
 
-## Engineering toolkit
+<h2 align="center">🧰 Languages & tools</h2>
 
-| Area | Tools used in my projects |
-| :--- | :--- |
-| Embedded & wireless | C / C++, ESP32, FreeRTOS, PlatformIO, Arduino, IEEE 802.11 |
-| Linux & desktop | Python, GTK4, PySide6, systemd user services, Bash |
-| Computer vision | OpenCV, InsightFace, ONNX Runtime |
-| Testing & delivery | pytest, unittest, native C++ tests, Git, GitHub Actions |
+<p align="center">
+  <img src="./assets/skills-core.svg" width="368" alt="C, C++, Python, Bash, Linux, Arduino" /><br /><br />
+  <img src="./assets/skills-tools.svg" width="432" alt="Git, GitHub Actions, VS Code, TypeScript, React, Next.js, SQLite" />
+</p>
 
-## How I approach a build
+<h2 align="center">⚡ GitHub activity</h2>
 
-- **Trace the whole path.** Follow an input from the hardware or operating system through processing, storage, and the interface.
-- **Make it demonstrable.** Provide a repeatable demo, setup instructions, and code a reviewer can navigate.
-- **Explain the boundary.** Separate simulations from hardware results and document the limitations behind security claims.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/stats-light.svg" />
+    <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/stats-dark.svg" width="49%" alt="My GitHub contribution and repository statistics" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/languages-light.svg" />
+    <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/languages-dark.svg" width="49%" alt="Language composition of my public source repositories" />
+  </picture>
+</p>
 
-More repositories, the earlier IoT implementation, and upstream projects I explore are organized in the **[project index](./PROJECTS.md)**.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/streak-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/streak-light.svg" />
+    <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/streak-dark.svg" width="70%" alt="Total contributions, current streak and longest contribution streak" />
+  </picture>
+</p>
 
-<p align="center"><sub>From packets and processes to a working interface.</sub></p>
+<h2 align="center">🌃 My contributions in 3D</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/output/contributions-3d.svg" width="100%" alt="An animated 3D skyline of my actual GitHub contributions, with activity radar and language distribution" />
+</p>
+
+<p align="center">
+  <sub>Refreshes daily with GitHub Actions · <a href="./INTEGRATIONS.md">Integrations & credits</a></sub><br /><br />
+  <a href="https://github.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/actions/workflows/profile-visuals.yml"><img src="https://github.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/actions/workflows/profile-visuals.yml/badge.svg" alt="Profile visuals refresh status" /></a>
+</p>
+
+<img src="./assets/footer.svg" width="100%" alt="" />
 
