@@ -8,7 +8,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 expected = [
-    'snake.svg', 'snake-dark.svg', 'contributions-3d.svg',
+    'snake.svg', 'snake-dark.svg', 'pacman.svg', 'pacman-dark.svg', 'contributions-3d.svg',
     'stats-dark.svg', 'stats-light.svg', 'languages-dark.svg', 'languages-light.svg',
     'streak-dark.svg', 'streak-light.svg',
     'repo-iot.svg', 'repo-facegate.svg', 'repo-codewriter.svg',

@@ -6,6 +6,7 @@ GitHub Actions token; no personal access token or external account is needed.
 
 | Integration | Upstream | Output |
 | --- | --- | --- |
+| Pac-Man arcade | [abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph) | Pac-Man and ghosts in light/dark themes with a vibrant palette |
 | Contribution snake | [Platane/snk](https://github.com/Platane/snk) | Animated light/dark snake SVGs |
 | 3D contribution calendar | [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | Animated contribution skyline, radar and language breakdown |
 | Stats, languages and repository cards | [stats-organization/github-readme-stats-action](https://github.com/stats-organization/github-readme-stats-action) | Light/dark account cards and five project cards |
@@ -33,4 +34,6 @@ Synthetic dashboard demonstrations are distinct from physical hardware results.
 
 The terminal typing animation is a small local SVG and requires no third-party
 image service. Light/dark account cards and snake images switch with GitHub's
-theme. The 3D calendar and project cards use the profile's dark palette.
+theme. The Pac-Man arcade is the main contribution animation; the classic neon
+snake is available in an expandable section. The 3D calendar and project cards
+use the profile's dark palette.
