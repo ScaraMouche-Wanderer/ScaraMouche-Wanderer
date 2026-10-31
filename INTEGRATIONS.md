@@ -21,9 +21,14 @@ The contribution graph includes explicitly generated fixtures from the
 [contribution visualization lab](https://github.com/ScaraMouche-Wanderer/contribution-visualization-lab).
 Those backdated author timestamps are synthetic and do not represent project
 work completed on the displayed days. Committer timestamps record generation.
+The sample spans November 19, 2025–October 31, 2026, with 0–6 generated entries
+per day and intentionally many empty days. Its Python utility produces the
+fixture data; it does not claim those historical entries were development work.
 
-All data comes from the account's public GitHub activity. The language charts
-represent repository source composition, not proficiency or hours worked.
+All data comes from the account's public GitHub activity. The 3D pie groups
+commit counts by each repository's primary language; unclassified repositories
+and languages beyond its top five contribute to "other". The separate language
+card measures source composition. Neither chart measures proficiency or hours worked.
 Synthetic dashboard demonstrations are distinct from physical hardware results.
 
 The terminal typing animation is a small local SVG and requires no third-party
