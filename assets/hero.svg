@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc"><title id="title">Prathmesh Narwaria — Hardware roots. Software reach.</title><desc id="desc">Embedded systems, Linux tools, and computer vision. A custom circuit board illustration.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc"><title id="title">ScaraMouche-Wanderer — Hardware roots. Software reach.</title><desc id="desc">Embedded systems, Linux tools, and computer vision. A custom circuit board illustration.</desc>
 <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#29362f"/></pattern><linearGradient id="chip" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#273b31"/><stop offset="1" stop-color="#101c16"/></linearGradient></defs>
 <rect width="1280" height="440" rx="20" fill="#101a15"/><rect width="1280" height="440" rx="20" fill="url(#grid)"/>
 <path d="M44 58H1236M44 378H1236" stroke="#35443a"/>
-<circle cx="48" cy="33" r="4" fill="#d6fb86"/><text x="64" y="39" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" letter-spacing="2.6" fill="#e8eee4">PRATHMESH NARWARIA</text>
+<circle cx="48" cy="33" r="4" fill="#d6fb86"/><text x="64" y="39" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" letter-spacing="2.6" fill="#e8eee4">ScaraMouche-Wanderer</text>
 <text x="1236" y="39" text-anchor="end" font-family="DejaVu Sans Mono,monospace" font-size="12" fill="#b9c6b6">SCARAMOUCHE / ENGINEERING LOG</text>
 <text x="44" y="155" font-family="DejaVu Sans,Arial,sans-serif" font-size="65" font-weight="bold" letter-spacing="-2" fill="#f0f2e8">HARDWARE ROOTS.</text>
 <text x="44" y="234" font-family="DejaVu Sans,Arial,sans-serif" font-size="65" font-weight="bold" letter-spacing="-2" fill="#d6fb86">SOFTWARE REACH.</text>

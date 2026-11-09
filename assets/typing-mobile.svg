@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="68" viewBox="0 0 440 68" role="img" aria-labelledby="title desc">
-  <title id="title">Prathmesh's engineering stack</title>
+  <title id="title">ScaraMouche-Wanderer's engineering stack</title>
   <desc id="desc">C/C++, ESP32 and FreeRTOS; Python and native Linux tools; OpenCV and computer vision; Ollama and local AI.</desc>
   <style>
     .line { opacity: 0; animation: visible 18s linear infinite; }

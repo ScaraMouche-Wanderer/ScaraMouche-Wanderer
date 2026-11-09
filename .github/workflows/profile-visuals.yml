@@ -55,7 +55,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&card_width=420&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a78bfa&border_color=30363d&border_radius=14&custom_title=Prathmesh's%20GitHub%20Stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&card_width=420&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a78bfa&border_color=30363d&border_radius=14&custom_title=ScaraMouche-Wanderer's%20GitHub%20Stats
           path: generated/stats-dark.svg
           fail_on_error: true
 
@@ -63,7 +63,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&card_width=420&bg_color=ffffff&title_color=7c3aed&text_color=24292f&icon_color=0891b2&border_color=d0d7de&border_radius=14&custom_title=Prathmesh's%20GitHub%20Stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&card_width=420&bg_color=ffffff&title_color=7c3aed&text_color=24292f&icon_color=0891b2&border_color=d0d7de&border_radius=14&custom_title=ScaraMouche-Wanderer's%20GitHub%20Stats
           path: generated/stats-light.svg
           fail_on_error: true
 

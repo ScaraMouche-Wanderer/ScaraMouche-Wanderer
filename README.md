@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header-animated.svg" width="100%" alt="Prathmesh Narwaria — ScaraMouche-Wanderer" />
+  <img src="./assets/header-animated.svg" width="100%" alt="ScaraMouche-Wanderer — ScaraMouche-Wanderer" />
   <picture>
     <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ScaraMouche-Wanderer/ScaraMouche-Wanderer/main/assets/typing-mobile.svg" />
     <img src="./assets/typing.svg" width="100%" alt="C/C++ and ESP32 • Python and Linux • OpenCV • Local AI" />
