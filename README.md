@@ -11,6 +11,10 @@
   Building ESP32 firmware, native desktop apps, and local AI tools.
 </p>
 
+<p align="center">
+  <a href="https://scaramouche-wanderer.github.io/Iot-Firewall-main/"><strong>Try the ESP32 wireless intrusion dashboard</strong></a> · Simulated traffic, no hardware required
+</p>
+
 <h2 align="center">👻 Pac-Man contribution graph</h2>
 
 <p align="center">
