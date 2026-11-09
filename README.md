@@ -15,6 +15,12 @@
   <a href="https://scaramouche-wanderer.github.io/Iot-Firewall-main/"><strong>Try the ESP32 wireless intrusion dashboard</strong></a> · Simulated traffic, no hardware required
 </p>
 
+<p align="center">
+  <a href="https://github.com/ScaraMouche-Wanderer/FaceGATE-Linux#preview-the-settings-ui">FaceGATE settings preview</a> ·
+  <a href="https://github.com/ScaraMouche-Wanderer/CodeWriter#try-the-typing-preview">CodeWriter typing preview</a> ·
+  <a href="https://github.com/ScaraMouche-Wanderer/prag-local-research#try-it-without-a-model">PRAG evidence walkthrough</a>
+</p>
+
 <h2 align="center">👻 Pac-Man contribution graph</h2>
 
 <p align="center">
